@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "name": "duncan-hamilton-website",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncan-ha/duncan-hamilton-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncan-ha/duncan-hamilton-website/issues"
+  },
+  "homepage": "https://github.com/duncan-ha/duncan-hamilton-website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
