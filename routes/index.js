@@ -12,4 +12,9 @@ app.get('/about', (req, res, next) => {
 app.get('/test', (req, res, next) => {
   res.render('test', { title: 'Success' });
 });
+app.get('/new', (req, res, next) => {
+  res.render('new', { title: 'New' });
+});
+
+
 

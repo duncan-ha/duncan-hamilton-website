@@ -1,15 +1,35 @@
 {% extends './layout.html' %}
 {% block content %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <title>Successful Test</title>
-</head>
-<body>
-    <h1>You love to see it</h1>
-</body>
-</html>
-    {% endblock %}
+<h2>Recent Work</h2>
+
+<h5>Here's some of my recent work</h5>
+<ol>
+  <li>Developing an Analytical Layer to Scale</li>
+    <ul>
+      <li>CHOP's rapid implementation of testing in the face of the COVID-19 pandemic necessitated the development of a central, governed analytical data layer on a previously-unseen development cycle. <a href="https://paranoidenough.com/2020/08/24/City-of-Blinding-Lights.html">on a road trip around the U.S.</a></li>
+      <li>After developing an initial model for and deployed an enterprise dashboard for reporting</li>
+    </ul>
+  <li>👨‍⚕️ TRM Labs</li>
+    <ul>
+      <li>By day, I work as a Data Scientist at <a href="https://github.com/chop-analytics/presentations/blob/master/advancing-analytics-summer-seminar-2020/covid-19-data.pdf">TRM Labs</a>. I analyze the blockchain and write about my insights.</li>
+    </ul>
+  <li>☕ Cadena Coffee</li>
+    <ul>
+      <li>Nights & weekends, I'm working on growing <a href="https://cadena.coffee/">Cadena Coffee</a>.</li>
+      <li>We sell premium (micro-batch, single origin, Fair Trade Organic) coffee beans directly to consumers. We control the entire supply chain from the farmer to your door.</li>
+    </ul>
+  <li>✍️ Writing</li>
+    <ul>
+      <li>Writing helps me clarify my thoughts and better understand the world. Check it out <a href="/writing">here</a>.</li>
+    </ul>
+  <li>📖 Reading</li>
+    <ul>
+      <li>In 2020 I'm going for quality over quantity when it comes to books. I'm focused on reading many of the classics that I haven't yet read.</li>
+    </ul>
+  <li>💪 Training</li>
+    <ul>
+      <li>Because of the pandemic, I've put my training more or less into maintenance mode. I've gotten a lot better at jumping rope and swinging kettlebells, though.</li>
+    </ul>
+</ol>
+<hr><p class="footer">Last updated November 17, 2020 | Austin 🤠</p>
+{% endblock %}
