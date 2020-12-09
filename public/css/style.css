@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+  }
+  img {
+    mix-blend-mode: screen;
+  }
+  .font-mono {
+    font-family: "Courier", "Courier New", monospace;
+  }
+  section a, figcaption a {
+    text-decoration: underline;
+  }
+  section ul li {
+    margin-top: 0.5em;
+  }
+  
+  @media (max-width: 640px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+  
+  /* Print style */
+  
+  @media print {
+    @page {
+      size: A4 portrait;
+      margin: 0mm 10mm 10mm;
+    }
+    html {
+      font-size: 70%;
+    }
+    .print\:hidden, [class^=".md\:m"] { display: none }
+    .md\:flex-row { flex-direction: row }
+    .md\:items-center { align-items: center }
+    .md\:ml-48 { margin-left: 12rem }
+  
+    .break-before {
+      break-before: page;
+    }
+    header {
+      height: 8rem !important;
+    }
+    a, abbr {
+      text-decoration: none !important;
+    }
+  }
+  
