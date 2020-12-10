@@ -25,9 +25,13 @@ app.get('/now', (req, res, next) => {
 app.get('/mondays', (req, res, next) => {
   res.render('mondays', { title: 'Mondays' });
 });
-app.get('/butts', (req, res, next) => {
-  res.render('butts', { title: 'Butts' });
+app.get('/running', (req, res, next) => {
+  res.render('running', { title: 'Running' });
 });
+app.get('/404', (req, res, next) => {
+  res.render('404', { title: '404' });
+});
+
 
 
 
