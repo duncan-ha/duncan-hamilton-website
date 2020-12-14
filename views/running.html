@@ -2,12 +2,26 @@
 {% block content %}
 <h1 class="text-3xl font-normal">Running</h1>
 
-<section class="max-w-3xl py-8" py-8">
-    <p class="max-w-3xl">I love running. When I was in high school, I hated it. After being diagnosed with asthma at 20, I realized that being slow was normal, not being able to breathe when it was damp, or chilly...or near freshly-mown grass wasn't.
-        <br class="hidden md:inline">A couple of years later, I started up running again, equipped with a gift of a GPS watch from my girlfriend (now fiancée!). I  and started seeing see progress </p>
-    <iframe width="900" height="400" frameborder="0" scrolling="no" src="//plotly.com/~duncanha/1.embed"></iframe>
-    <p class="max-w-3xl">Je suis designer et développeur web. Je vis et travaille à Strasbourg. <br class="hidden md:inline"> J’enseigne à l’ECV Digital les bases du développement web, de la typographie et du design d’interface et d’interaction.</p>
-    <img class = "inline-block"  src="assets/mondays.png" >
+<section class="max-w-3xl py-8">
+    <p class="max-w-3xl text-black text-medium">I love running. Not only is it time-efficient and equipment-light, running is sport where consistency and effort are truly rewarded with incremental, quanitifiable progress. 
+    </p>
+
+    <p class="max-w-3xl text-black text-medium py-4">When I was in high school doing XC and Track (well, mostly the "& Field" as I was a much better thrower than runner), I hated it. After being diagnosed with asthma at 20, I realized that being slow was normal, not being able to breathe when it was damp, or chilly...or near freshly-mown grass wasn't.
+    </p>
+        <p class="max-w-3xl text-black text-medium">A couple of years later, I began running again, this time equipped with a gift of a GPS watch from my now-fiancée and I have not stopped, aside from time off due to injury, since then.
+        As I started running consistently, and with emphasis on specificity and intensity (easy days easy, hard days hard), I started seeing significant and quanitifiable progress. 
+    </p>    
+        <p class="max-w-3xl text-black text-medium py-4"> It was also the first time I was had data I cared about that I could dig in to — with apps (Smashrun, Runalyze, Strava), and on my own. This was a catalyst for leaving the insurance industry, as I realized that was what I wanted to be doing at work.
+         In keeping with this (and the "runner who won't stop talking about running" trope), I presented a deep dive into a recent training cycle in the final round interview for my current role, using Statistical Process Control methodology to evaluate indicators of fatigue and overtraining.
+    </p>
+    <p class="max-w-3xl text-black text-medium py-4">See below for some running-related visualizations created with R (ggplot and Plotly):</p>
+    <iframe width="900" height="400" frameborder="0" scrolling="no" src="//plotly.com/~duncanha/15.embed"></iframe>
+    <p class="max-w-3xl text-black text-gray-600 py-4 text-sm">Monthly distances over time. November of this year is the first time I've run more than the preceding October - I guess that's what happens when you didn't run the month before.</p>
+    <iframe width="900" height="400" frameborder="0" scrolling="no" src="//plotly.com/~duncanha/9.embed"></iframe>
+    <p class="max-w-3xl text-black text-gray-600 py-4 text-sm">Race pace vs race distance, grouped by year of performance (recorded distances vary a bit within years for same races, due to GPS and course/route fluctuation). 2018 was a break-out year for both the Broad Street Run (10mi) and the Philadelphia Half Marathon (13.1mi) </p>
+    <img class="max-w-3xl" src="assets/mondays.png">
+    <p class="max-w-3xl text-black text-gray-600 py-4 text-sm">My favorite: runs logged by distance, against day of week, week of year, and year. Sadly this is not interactive, due to data integrity issues associated with a long-standing ggplotly facet with "free axis" issue.</p>
+    
   </section>
 {% endblock %}
       
